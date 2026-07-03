@@ -1,15 +1,13 @@
-# API Studio de Jogos 🎮
+# API Estudio de Jogos 🎮
 
-Projeto final desenvolvido como requisito de avaliação para a disciplina de **Desenvolvimento de Sistemas Web**, do **5º Semestre** do curso da **Unicentro**.
+**Patrick Correa Moraes - Unicentro**
 
-## 👨‍🎓 Autor
-**Patrick** 
-Universidade Estadual do Centro-Oeste (Unicentro)
+Projeto final desenvolvido como requisito de avaliação para a disciplina de Desenvolvimento de Sistemas Web.
 
 ## 📌 Sobre o Projeto
 Esta é uma API RESTful completa desenvolvida para gerenciar um catálogo de estúdios desenvolvedores de jogos e seus respectivos títulos. A aplicação permite realizar operações de CRUD (Create, Read, Update, Delete) completas e conta com um sistema de autenticação via Token JWT para proteger as rotas.
 
-A estrutura do banco de dados relacional (PostgreSQL) define que **um estúdio pode ter vários jogos (1:N)**, implementando regras de negócio integradas como exclusão em cascata (se um estúdio for deletado, todos os jogos dele são deletados automaticamente).
+A estrutura do banco de dados relacional (PostgreSQL) define que um estúdio pode ter vários jogos (1:N), implementando regras de negócio integradas como exclusão em cascata (se um estúdio for deletado, todos os jogos dele são deletados automaticamente).
 
 ## 🚀 Funcionalidades
 
