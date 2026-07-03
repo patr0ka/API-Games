@@ -7,6 +7,9 @@ temp/
 coverage
 ormconfig.json
 dist
+fix_fk.ts
+test_create_jogo.ts
+src/shared/typeorm/data-source.ts
 
 uploads/*
 !uploads/.gitkeep
